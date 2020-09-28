@@ -9,8 +9,7 @@ snake[0] = {
 let direction = "right";
 
 function criarBG() {
-
-    context.fillstyle = "lightgreen";
+    context.fillstyle = "lightwhite";
     context.fillRect(0, 0, 16 * box, 16 *box);
 
 }
@@ -18,7 +17,7 @@ function criarBG() {
 function criarCobrinha(){
         for(i=0; i < snake.length; i++){
             context.fillstyle = "green";
-            context.fillRect(snake[i].x, snake[i].y, box,box);
+            context.fillRect(snake[i].x, snake[i].y, box, box);
         }
 }
 
