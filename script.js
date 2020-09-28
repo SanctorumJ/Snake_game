@@ -16,12 +16,9 @@ function criarBG() {
 }
 
 function criarCobrinha(){
-    for( =
-    for( =
-        for(= 0; i < snake.length; i++) {
-    for( =
-        context.fillstyle = "green";
-        context.fillRect(snake[i].x, snake[y].y, box,box);
+        for(i=0; i < snake.length; i++){
+            context.fillstyle = "green";
+            context.fillRect(snake[i].x, snake[i].y, box,box);
         }
 }
 
